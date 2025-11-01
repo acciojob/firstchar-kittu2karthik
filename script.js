@@ -1,5 +1,6 @@
 function firstChar(text) {
-  // your code here
+    if (!text) return ''; // Handle empty or null input
+    return text.trim().charAt(0) || ''; // Trim spaces and get the first character, return empty string if none
 }
 
 // Do not change the code below
